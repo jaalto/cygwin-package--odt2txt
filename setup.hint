@@ -1,0 +1,6 @@
+sdesc: "Simple converter from OpenDocument Text to plain text"
+ldesc: "Extract the text out of OpenDocument Texts, as produced by
+OpenOffice.org, KOffice, StarOffice and others. It is small and fast,
+can output the document in many encodings and adopts to your locale."
+category: Text
+requires: cygwin libiconv2 zlib

@@ -1,0 +1,17 @@
+diff --git a/Makefile b/Makefile
+index 2e545cf..2d7b932 100644
+--- a/Makefile
++++ b/Makefile
+@@ -24,9 +24,9 @@ INSTALL = install
+ GROFF   = groff
+ 
+ DESTDIR = /usr/local
+-PREFIX  =
+-BINDIR  = $(PREFIX)/bin
+-MANDIR  = $(PREFIX)/share/man
++prefix  =
++BINDIR  = $(prefix)/bin
++MANDIR  = $(prefix)/share/man
+ MAN1DIR = $(MANDIR)/man1
+ 
+ ifeq ($(UNAME_S),FreeBSD)

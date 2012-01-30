@@ -1,0 +1,76 @@
+odt2txt
+------------------------------------------
+
+Simple converter from OpenDocument Text to plain text
+
+Extract the text out of OpenDocument Texts, as produced by
+OpenOffice.org, KOffice, StarOffice and others. It is small and fast,
+can output the document in many encodings and adopts to your locale.
+
+Runtime requirements:
+  cygwin
+  libiconv2
+  zlib
+
+Build requirements:
+  cygwin
+  libiconv2
+  zlib
+
+Canonical homepage:
+  http://stosberg.net/odt2txt
+  http://packages.debian.org/odt2txt
+
+Canonical download:
+  See above
+
+Version control repository:
+  git://repo.or.cz/odt2txt.git
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Dennis Stosberg <dennis@stosberg.net>
+  Bugs: Dennis Stosberg <dennis@stosberg.net>
+
+License:
+  GPL-2
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack odt2txt-0.3+git20070827-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./odt2txt*.sh all
+
+This will create:
+  odt2txt-0.3+git20070827-1.tar.bz2
+  odt2txt-0.3+git20070827-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+usr/bin/odt2txt.exe
+usr/share/doc/Cygwin/odt2txt-0.3+git20070827.README
+usr/share/doc/odt2txt-0.3+git20070827/GPL-2
+usr/share/man/man1/odt2txt.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.3+git20070827-1 -----
+- Initial release, 2007-08-27 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
