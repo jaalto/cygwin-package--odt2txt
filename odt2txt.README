@@ -23,7 +23,8 @@ Canonical download:
   See above
 
 Version control repository:
-  https://github.com/dstosberg/odt2txt
+  git clone https://github.com/dstosberg/odt2txt.git
+  git clone git://github.com/dstosberg/odt2txt.git
 
 Mailing list:
 
