@@ -8,24 +8,22 @@ OpenOffice.org, KOffice, StarOffice and others. It is small and fast,
 can output the document in many encodings and adopts to your locale.
 
 Runtime requirements:
-  cygwin
   libiconv2
   zlib
 
 Build requirements:
-  cygwin
   libiconv2
   zlib
 
 Canonical homepage:
+  https://github.com/dstosberg/odt2txt
   http://packages.debian.org/odt2txt
-  http://stosberg.net/odt2txt (2016-06-06 no longer exists)
 
 Canonical download:
   See above
 
 Version control repository:
-  git://repo.or.cz/odt2txt.git
+  https://github.com/dstosberg/odt2txt
 
 Mailing list:
 
@@ -46,31 +44,30 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack odt2txt-0.3+git20070827-1-src.tar.bz2
+  unpack odt2txt-0.5-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./odt2txt*.sh all
 
 This will create:
-  odt2txt-0.3+git20070827-1.tar.bz2
-  odt2txt-0.3+git20070827-1-src.tar.bz2
+  odt2txt-0.5-1.tar.xz
+  odt2txt-0.5-1-src.tar.xz
 
 -------------------------------------------
 
 Files included in the binary distribution:
-
-usr/bin/odt2txt.exe
-usr/share/doc/Cygwin/odt2txt-0.3+git20070827.README
-usr/share/doc/odt2txt-0.3+git20070827/GPL-2
-usr/share/man/man1/odt2txt.1.gz
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
 
+----- version 0.5-1 -----
+- New upstream release 2016-06-11 Jari Aalto
+
 ----- version 0.3+git20070827-1 -----
 - Initial release, 2007-08-27 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+Copyright (C) 2007-2016 Jari Aalto; Licenced under GPL v2 or later

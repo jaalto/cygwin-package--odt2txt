@@ -1,13 +1,10 @@
--- Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
-
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N -- decription
-Subject: New packages: odt2txt-0.3+git20070827 -- Simple converter from OpenDocument Text to plain text
+Subject: Updated: odt2txt 0.5-1 -- Simple converter from OpenDocument Text to plain text
 
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://stosberg.net/odt2txt
+Homepage: https://github.com/dstosberg/odt2txt
 License : GPL-2
 
 Extract the text out of OpenDocument Texts, as produced by
@@ -17,7 +14,7 @@ can output the document in many encodings and adopts to your locale.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Not applicaple.
+See homepage.
 
 INSTALL OR UPGRADE NOTES
 ========================
