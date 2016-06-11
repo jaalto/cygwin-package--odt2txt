@@ -45,15 +45,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack odt2txt-0.5-1-src.tar.bz2
+  unpack odt2txt-0.5+20160502+gitde7f920-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./odt2txt*.sh all
 
 This will create:
-  odt2txt-0.5-1.tar.xz
-  odt2txt-0.5-1-src.tar.xz
+  odt2txt-0.5+20160502+gitde7f920-1.tar.xz
+  odt2txt-0.5+20160502+gitde7f920-1-src.tar.xz
 
 -------------------------------------------
 
@@ -63,6 +63,9 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 0.5+20160502+gitde7f920-1 -----
+- New upstream release 2016-06-11 Jari Aalto
 
 ----- version 0.5-1 -----
 - New upstream release 2016-06-11 Jari Aalto
