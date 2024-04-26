@@ -4,3 +4,4 @@ OpenOffice.org, KOffice, StarOffice and others. It is small and fast,
 can output the document in many encodings and adopts to your locale."
 category: Text
 requires: libiconv2 zlib
+license: GPL-2.0-or-later
